@@ -13,7 +13,7 @@ Widget::Widget(QWidget *parent)
 {
     ui->setupUi(this);
 
-    setWindowTitle(QString::fromLocal8Bit("打包解包小工具"));
+    setWindowTitle(QString::fromUtf8("打包解包小工具"));
     setWindowFlags(windowFlags()&~Qt::WindowMaximizeButtonHint);
     setFixedSize(this->width(),this->height());
 }

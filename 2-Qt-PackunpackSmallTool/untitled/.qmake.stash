@@ -5,3 +5,15 @@ QMAKE_CXX.COMPILER_MACROS = \
     QT_COMPILER_STDCXX \
     QMAKE_MSC_VER \
     QMAKE_MSC_FULL_VER
+QMAKE_CXX.INCDIRS = \
+    D:/CodePath/Compiler/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ \
+    D:/CodePath/Compiler/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 \
+    D:/CodePath/Compiler/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward \
+    D:/CodePath/Compiler/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include \
+    D:/CodePath/Compiler/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed \
+    D:/CodePath/Compiler/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include
+QMAKE_CXX.LIBDIRS = \
+    D:/CodePath/Compiler/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0 \
+    D:/CodePath/Compiler/QT/Tools/mingw1120_64/lib/gcc \
+    D:/CodePath/Compiler/QT/Tools/mingw1120_64/x86_64-w64-mingw32/lib \
+    D:/CodePath/Compiler/QT/Tools/mingw1120_64/lib
